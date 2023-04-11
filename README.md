@@ -9,10 +9,13 @@ The dataset was provided by MovieLens, a movie recommendation service. It contai
 
 ## 📌 Variables
 ### movie.csv
-✶**Impression:** Ad views
+✶**movieId:** Unique movie number.
+✶**title:** Movie name
+✶**genres:** Type
 
-✶**Click:** Number of clicks on the displayed ad
+### rating.csv
 
-✶**Purchase:** Number of products purchased after ads clicked
-
-✶**Earning:** Earnings after purchased products
+✶**userid:** Unique user number.
+✶**movieId:** Unique movie number.
+✶**rating:** The rating given to the movie by the user
+✶**timestamp:** Review date
