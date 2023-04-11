@@ -1,4 +1,3 @@
-import pandas as pd
 
 #############################################
 # Hybrid Recommender System
@@ -11,6 +10,7 @@ import pandas as pd
 #############################################
 # Data Preparation
 #############################################
+import pandas as pd
 
 movie = pd.read_csv("datasets/movie.csv")
 rating = pd.read_csv("datasets/rating.csv")
