@@ -10,12 +10,17 @@ The dataset was provided by MovieLens, a movie recommendation service. It contai
 ## 📌 Variables
 ### movie.csv
 ✶**movieId:** Unique movie number.
+
 ✶**title:** Movie name
+
 ✶**genres:** Type
 
 ### rating.csv
 
 ✶**userid:** Unique user number.
+
 ✶**movieId:** Unique movie number.
+
 ✶**rating:** The rating given to the movie by the user
+
 ✶**timestamp:** Review date
